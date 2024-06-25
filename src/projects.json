@@ -1,0 +1,67 @@
+[
+    {
+        "title" : "Market Maven",
+        "description" : "",
+        "image" : "",
+        "tech" : ["React", "Express.js", "Node.js", "MongoDB", "TailwindCSS"],
+        "github" : "https://github.com/acm-projects/Market-Maven",
+        "deployment" : ""
+    },
+    {
+        "title" : "PhishNet",
+        "description" : "",
+        "image" : "",
+        "tech" : ["React","Flask","Google OAuth"],
+        "github" : "https://github.com/keeganasmith/tamuhack2024/",
+        "deployment" : ""
+    },
+    {
+        "title" : "Soulstice Dating",
+        "description" : "",
+        "image" : "",
+        "tech" : ["","",""],
+        "github" : "",
+        "deployment" : "https://soulsticedating.com/"
+    },
+    {
+        "title" : "SHPE UTD Chapter Website",
+        "description" : "",
+        "image" : "",
+        "tech" : ["","",""],
+        "github" : "",
+        "deployment" : "https://shpeutd.vercel.app/"
+    },
+    {
+        "title" : "ndhub",
+        "description" : "",
+        "image" : "",
+        "tech" : ["","",""],
+        "github" : "https://github.com/LerichO/web102-final",
+        "deployment" : ""
+    },
+    {
+        "title" : "Conceal and Reveal",
+        "description" : "",
+        "image" : "",
+        "tech" : ["","",""],
+        "github" : "https://github.com/ACM-Research/Conceal-and-Reveal/",
+        "deployment" : ""
+    },
+    {
+        "title" : "homeAloan",
+        "description" : "",
+        "image" : "",
+        "tech" : ["","",""],
+        "github" : "https://github.com/LerichO/homeAloan",
+        "deployment" : ""
+    },
+    {
+        "title" : "Small Services Finder",
+        "description" : "",
+        "image" : "",
+        "tech" : ["","",""],
+        "github" : "https://github.com/LerichO/final-project",
+        "deployment" : ""
+    }
+    
+]
