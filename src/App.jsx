@@ -1,8 +1,10 @@
 import { useState, useRef } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { TypeAnimation } from 'react-type-animation'
 import './App.css'
 
-import { TypeAnimation } from 'react-type-animation'
+import listOfProjects from './projects.json'
+import ProjectCard from './components/ProjectCard'
 
 function App() {
 
@@ -23,11 +25,11 @@ function App() {
   return (
     <>
       <div>
-        <ul className="flex flex-row w-screen gap-10 p-10">
-          <li onClick={() => scrollTo(home)}>Home</li>
-          <li onClick={() => scrollTo(about)}>About Me</li>
-          <li onClick={() => scrollTo(projects)}>Projects</li>
-          <li onClick={() => scrollTo(stats)}>Cool Stats</li>
+        <ul className="flex flex-row p-10">
+          <li><button onClick={() => scrollTo(home)}>Home</button></li>
+          <li><button onClick={() => scrollTo(about)}>About Me</button></li>
+          <li><button onClick={() => scrollTo(projects)}>Projects</button></li>
+          <li><button onClick={() => scrollTo(stats)}>Cool Stats</button></li>
         </ul>
       </div>
       <div ref={home}>
@@ -41,34 +43,76 @@ function App() {
             ]}
             wrapper="span"
             speed={50}
-            style={{ fontSize: '2em', display: 'inline-block' }}
             repeat={Infinity}
           />
         </h1>
       </div>
-      <div className="card flex flex-col gap-4">
-        <div className='flex flex-row gap-4 justify-center'>
-          <button onClick={() => window.open('https://www.linkedin.com/in/lerichrosay', '_blank')}>
-            LinkedIn
-          </button>
-          <button onClick={() => window.open('https://github.com/lericho', '_blank')}>
-            GitHub
-          </button>
-        </div>
-        <p>
-          🛠 Work in progress 🛠
-        </p>
+      <div className='flex flex-row gap-4 m-8 justify-center items-center h-24'>
+        <img src="https://cdn.simpleicons.org/github/white" width={40} height={40} alt="GitHub"
+          onClick={() => window.open('https://github.com/lericho', '_blank')}
+          className='socials'
+        />
+        <img src="https://cdn.simpleicons.org/linkedin/white" width={40} height={40} alt="Linkedin"
+          onClick={() => window.open('https://www.linkedin.com/in/lerichrosay', '_blank')}
+          className='socials'
+        />
+        <img src="https://cdn.simpleicons.org/devpost/white" width={40} height={40} alt="devpost"
+          onClick={() => window.open('https://devpost.com/lericho', '_blank')}
+          className='socials'
+        />
+
       </div>
 
       <div className='p-10'>
-        <div ref={about} className="h-screen">
-          About
+        <div ref={about} className="">
+          <h2>
+            <TypeAnimation
+              sequence={[
+                'About Me',
+                5000
+              ]}
+              wrapper="span"
+              speed={50}
+              className="text-3xl"
+              repeat={1}
+            />
+          </h2>
+          🛠️ WIP 🛠️
         </div>
         <div ref={projects} className="h-screen">
-          Projects
+          <h2>
+            <TypeAnimation
+              sequence={[
+                'Projects',
+                5000
+              ]}
+              wrapper="span"
+              speed={50}
+              className="text-3xl"
+              repeat={1}
+            />
+          </h2>
+          <div className='flex flex-wrap gap-5 justify-center items-center'>
+            {listOfProjects.map((project) => (
+              <ProjectCard title={project.title} />
+            ))}
+
+          </div>
         </div>
-        <div ref={stats} className="h-screen">
-          Some Fun Stats
+        <div ref={stats} className="">
+          <h2>
+            <TypeAnimation
+              sequence={[
+                'Fun Stats',
+                5000
+              ]}
+              wrapper="span"
+              speed={50}
+              className="text-3xl"
+              repeat={1}
+            />
+          </h2>
+          🛠️ WIP 🛠️
         </div>
 
       </div>
