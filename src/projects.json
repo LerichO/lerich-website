@@ -1,67 +1,67 @@
 [
     {
         "title" : "Market Maven",
-        "description" : "",
+        "description" : "Your virtual farmers market! Made at ACM UTD",
         "image" : "",
         "tech" : ["React", "Express.js", "Node.js", "MongoDB", "TailwindCSS"],
         "github" : "https://github.com/acm-projects/Market-Maven",
-        "deployment" : ""
+        "otherLink" : ""
     },
     {
         "title" : "PhishNet",
-        "description" : "",
+        "description" : "Phishing email detection software built at TAMUhacks 2024",
         "image" : "",
-        "tech" : ["React","Flask","Google OAuth"],
+        "tech" : ["React", "Flask", "Google OAuth", "OpenAI"],
         "github" : "https://github.com/keeganasmith/tamuhack2024/",
-        "deployment" : ""
+        "otherLink" : "https://devpost.com/software/phish-net-jbfr7y"
     },
     {
         "title" : "Soulstice Dating",
-        "description" : "",
+        "description" : "A curated experience, blind dates connecting soulmates",
         "image" : "",
-        "tech" : ["","",""],
+        "tech" : ["Angular", "React Native Expo", "Flask", "Figma", "MongoDB", "Postman"],
         "github" : "",
-        "deployment" : "https://soulsticedating.com/"
+        "otherLink" : "https://soulsticedating.com/"
     },
     {
         "title" : "SHPE UTD Chapter Website",
         "description" : "",
         "image" : "",
-        "tech" : ["","",""],
+        "tech" : ["Next.js", "TailwindCSS", "Vercel"],
         "github" : "",
-        "deployment" : "https://shpeutd.vercel.app/"
+        "otherLink" : "https://shpeutd.vercel.app/"
     },
     {
         "title" : "ndhub",
         "description" : "",
         "image" : "",
-        "tech" : ["","",""],
+        "tech" : ["React", "TailwindCSS", "Supabase", "Netlify"],
         "github" : "https://github.com/LerichO/web102-final",
-        "deployment" : ""
+        "otherLink" : ""
     },
     {
         "title" : "Conceal and Reveal",
         "description" : "",
         "image" : "",
-        "tech" : ["","",""],
+        "tech" : ["scikit-learn", "MatPlotLib", "TensorFlow"],
         "github" : "https://github.com/ACM-Research/Conceal-and-Reveal/",
-        "deployment" : ""
+        "otherLink" : "https://private-user-images.githubusercontent.com/62407356/287488692-7e74817e-caf6-4756-97ba-5b5d83e92c32.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjAyOTkzNDAsIm5iZiI6MTcyMDI5OTA0MCwicGF0aCI6Ii82MjQwNzM1Ni8yODc0ODg2OTItN2U3NDgxN2UtY2FmNi00NzU2LTk3YmEtNWI1ZDgzZTkyYzMyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzA2VDIwNTA0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE1MzJhMjkzZjRhZWZjNzNhNmJlNTdhMjI4NDMwYjU5ZTg2MzM4YmVjNzdmNjQ1NTEyM2VkMTYwMWJmMjMwMjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.JW1--ZMboYvk2_STKYpY77jyzZfmRJB7XBUW84mFpWI"
     },
     {
         "title" : "homeAloan",
         "description" : "",
         "image" : "",
-        "tech" : ["","",""],
+        "tech" : ["Flask", "OpenAI"],
         "github" : "https://github.com/LerichO/homeAloan",
-        "deployment" : ""
+        "otherLink" : "https://devpost.com/software/self-realtor"
     },
     {
         "title" : "Small Services Finder",
         "description" : "",
         "image" : "",
-        "tech" : ["","",""],
+        "tech" : ["Flask", "Bootstrap", "Heroku"],
         "github" : "https://github.com/LerichO/final-project",
-        "deployment" : ""
+        "otherLink" : ""
     }
     
 ]
