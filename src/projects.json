@@ -1,7 +1,7 @@
 [
     {
         "title" : "Market Maven",
-        "description" : "Your virtual farmers market! Made at ACM UTD",
+        "description" : "Your virtual farmers market! Discover local farmers, artisans, and artists within your local community. Connect with sellers to purchase fresh foods, personalized gifts, and support a local small market. Or, easily create your own market and begin selling your own goods! Rediscover the joy of locally sourced and crafted goods with Market Maven! Created under the ACM UTD Projects Division",
         "image" : "",
         "tech" : ["React", "Express.js", "Node.js", "MongoDB", "TailwindCSS"],
         "github" : "https://github.com/acm-projects/Market-Maven",
@@ -9,23 +9,15 @@
     },
     {
         "title" : "PhishNet",
-        "description" : "Phishing email detection software built at TAMUhacks 2024",
+        "description" : "Phishing email detection software built in under 24 hours at TAMUhacks 2024. Utilizing Google's Gmail services, Google OAuth, OpenAI's GPT, and IPQualityScore's Malicious API Scanner API, our team built a full-stack web application that can scan through a user's emails and accurately detect phishing attempts from suspicious addresses, messages, and links.",
         "image" : "",
         "tech" : ["React", "Flask", "Google OAuth", "OpenAI"],
         "github" : "https://github.com/keeganasmith/tamuhack2024/",
         "otherLink" : "https://devpost.com/software/phish-net-jbfr7y"
     },
     {
-        "title" : "Soulstice Dating",
-        "description" : "A curated experience, blind dates connecting soulmates",
-        "image" : "",
-        "tech" : ["Angular", "React Native Expo", "Flask", "Figma", "MongoDB", "Postman"],
-        "github" : "",
-        "otherLink" : "https://soulsticedating.com/"
-    },
-    {
         "title" : "SHPE UTD Chapter Website",
-        "description" : "",
+        "description" : "As a Technology Director, I manage the development and maintenance of the chapter website for the Society of Hispanic Engineers at UT Dallas utilizing NextJS and hosted on Vercel. Be sure to visit our chapter and check out all the cool events we're up to!",
         "image" : "",
         "tech" : ["Next.js", "TailwindCSS", "Vercel"],
         "github" : "",
@@ -33,7 +25,7 @@
     },
     {
         "title" : "ndhub",
-        "description" : "",
+        "description" : "A simple forum style web application where people can post about their favorite indie bands. This website serves as my capstone project for CodePath's WEB 102 Intermediate Web Development Course covering front-end development with React as well as hosting and deployment with Netlify.",
         "image" : "",
         "tech" : ["React", "TailwindCSS", "Supabase", "Netlify"],
         "github" : "https://github.com/LerichO/web102-final",
@@ -41,7 +33,7 @@
     },
     {
         "title" : "Conceal and Reveal",
-        "description" : "",
+        "description" : "10-week long research project which consisted of using various techniques to implement steganography and steganalysis, and experimenting with cryptography to hide a message's meaning. We created and ran various machine learning models using both convolutional neural networks (CNN), such as ResNet50 and EfficientNetV2-S, and support vector machines (SVM) to detect whether or not an image had been steganographically modified. Created under the ACM UTD Research Division",
         "image" : "",
         "tech" : ["scikit-learn", "MatPlotLib", "TensorFlow"],
         "github" : "https://github.com/ACM-Research/Conceal-and-Reveal/",

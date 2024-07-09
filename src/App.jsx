@@ -63,8 +63,8 @@ function App() {
 
       </div>
 
-      <div className='p-10'>
-        <div ref={about} className="min-h-screen my-4">
+      <div>
+        <div ref={about} className="min-h-screen mb-4 mt-8">
           <h2>
             <TypeAnimation
               sequence={[
@@ -81,7 +81,7 @@ function App() {
             <p></p>
           </div>
         </div>
-        <div ref={projects} className="min-h-screen my-4">
+        <div ref={projects} className="min-h-screen mb-4 mt-8">
           <h2>
             <TypeAnimation
               sequence={[
@@ -93,14 +93,18 @@ function App() {
               repeat={1}
             />
           </h2>
-          <div className='flex flex-wrap gap-5 justify-center items-center'>
+          <p className='mb-4 flex flex-wrap justify-center'>
+            Here is a list of some of the projects and work I am proud to have contirbuted to.
+            Feel free to explore and interact to learn more!
+          </p>
+          <div className='flex flex-wrap gap-5 p-8 justify-center items-center'>
             {listOfProjects.map((project) => (
               <ProjectCard project={project} key={project}/>
             ))}
 
           </div>
         </div>
-        <div ref={contact} className="min-h-screen my-4">
+        <div ref={contact} className="min-h-screen mb-4 mt-8">
           <h2>
             <TypeAnimation
               sequence={[
