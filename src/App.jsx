@@ -11,7 +11,7 @@ function App() {
   const home = useRef(null)
   const about = useRef(null)
   const projects = useRef(null)
-  const stats = useRef(null)
+  const contact = useRef(null)
 
   const scrollTo = (elementRef) => {
     window.scrollTo({
@@ -25,11 +25,11 @@ function App() {
   return (
     <>
       <div>
-        <ul className="flex flex-row p-10">
+        <ul className="flex flex-row">
           <li><button onClick={() => scrollTo(home)}>Home</button></li>
           <li><button onClick={() => scrollTo(about)}>About Me</button></li>
           <li><button onClick={() => scrollTo(projects)}>Projects</button></li>
-          <li><button onClick={() => scrollTo(stats)}>Cool Stats</button></li>
+          <li><button onClick={() => scrollTo(contact)}>Contact Me</button></li>
         </ul>
       </div>
       <div ref={home}>
@@ -63,8 +63,8 @@ function App() {
 
       </div>
 
-      <div className='p-10'>
-        <div ref={about} className="">
+      <div>
+        <div ref={about} className="min-h-screen mb-4 mt-8">
           <h2>
             <TypeAnimation
               sequence={[
@@ -73,13 +73,15 @@ function App() {
               ]}
               wrapper="span"
               speed={50}
-              className="text-3xl"
               repeat={1}
             />
           </h2>
-          🛠️ WIP 🛠️
+          <div className="flex flex-row">
+            <img />
+            <p></p>
+          </div>
         </div>
-        <div ref={projects} className="h-screen">
+        <div ref={projects} className="min-h-screen mb-4 mt-8">
           <h2>
             <TypeAnimation
               sequence={[
@@ -88,27 +90,29 @@ function App() {
               ]}
               wrapper="span"
               speed={50}
-              className="text-3xl"
               repeat={1}
             />
           </h2>
-          <div className='flex flex-wrap gap-5 justify-center items-center'>
+          <p className='mb-4 flex flex-wrap justify-center'>
+            Here is a list of some of the projects and work I am proud to have contirbuted to.
+            Feel free to explore and interact to learn more!
+          </p>
+          <div className='flex flex-wrap gap-5 p-8 justify-center items-center'>
             {listOfProjects.map((project) => (
-              <ProjectCard title={project.title} />
+              <ProjectCard project={project} key={project}/>
             ))}
 
           </div>
         </div>
-        <div ref={stats} className="">
+        <div ref={contact} className="min-h-screen mb-4 mt-8">
           <h2>
             <TypeAnimation
               sequence={[
-                'Fun Stats',
+                'Contact Me',
                 5000
               ]}
               wrapper="span"
               speed={50}
-              className="text-3xl"
               repeat={1}
             />
           </h2>
