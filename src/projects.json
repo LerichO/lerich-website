@@ -1,57 +1,57 @@
 [
     {
         "title" : "Market Maven",
-        "description" : "Your virtual farmers market! Discover local farmers, artisans, and artists within your local community. Connect with sellers to purchase fresh foods, personalized gifts, and support a local small market. Or, easily create your own market and begin selling your own goods! Rediscover the joy of locally sourced and crafted goods with Market Maven! Created under the ACM UTD Projects Division",
-        "image" : "",
+        "description" : "Your virtual farmers market! Discover local farmers, artisans, and artists within your local community. Connect with sellers to purchase fresh foods, personalized gifts, and support a local small market. Or, easily create your own market and begin selling your own goods! Rediscover the joy of locally sourced and crafted goods with Market Maven! Created under the ACM UTD Projects Division.",
+        "image" : "/market-maven-thumbnail.gif",
         "tech" : ["React", "Express.js", "Node.js", "MongoDB", "TailwindCSS"],
         "github" : "https://github.com/acm-projects/Market-Maven",
         "otherLink" : ""
     },
     {
         "title" : "PhishNet",
-        "description" : "Phishing email detection software built in under 24 hours at TAMUhacks 2024. Utilizing Google's Gmail services, Google OAuth, OpenAI's GPT, and IPQualityScore's Malicious API Scanner API, our team built a full-stack web application that can scan through a user's emails and accurately detect phishing attempts from suspicious addresses, messages, and links.",
-        "image" : "",
+        "description" : "Phishing email detection software built in under 24 hours at TAMUhacks 2024 as a submission for Sandia Labs' cybersecurity challenge. Utilizing Google's Gmail services, Google OAuth, OpenAI's GPT, and IPQualityScore's Malicious API Scanner API, our team built a full-stack web application that can scan through a user's emails and accurately detect phishing attempts from suspicious addresses, messages, and links.",
+        "image" : "/phishnet-thumbnail.gif",
         "tech" : ["React", "Flask", "Google OAuth", "OpenAI"],
         "github" : "https://github.com/keeganasmith/tamuhack2024/",
         "otherLink" : "https://devpost.com/software/phish-net-jbfr7y"
     },
     {
         "title" : "SHPE UTD Chapter Website",
-        "description" : "As a Technology Director, I manage the development and maintenance of the chapter website for the Society of Hispanic Engineers at UT Dallas utilizing NextJS and hosted on Vercel. Be sure to visit our chapter and check out all the cool events we're up to!",
-        "image" : "",
+        "description" : "As a Technology Director, I manage the development and maintenance of the chapter website for the Society of Hispanic Professional Engineers (SHPE) at UT Dallas utilizing NextJS and Vercel deployment. Be sure to visit our chapter and check out all the cool events we're up to!",
+        "image" : "/market-maven-thumbnail.gif",
         "tech" : ["Next.js", "TailwindCSS", "Vercel"],
         "github" : "",
         "otherLink" : "https://shpeutd.vercel.app/"
     },
     {
         "title" : "ndhub",
-        "description" : "A simple forum style web application where people can post about their favorite indie bands. This website serves as my capstone project for CodePath's WEB 102 Intermediate Web Development Course covering front-end development with React as well as hosting and deployment with Netlify.",
-        "image" : "",
+        "description" : "A simple forum style web application where indie music lovers can post about their favorite indie artists. This website serves as my capstone project for CodePath's WEB 102 Intermediate Web Development Course covering front-end development with React as well as hosting and deployment with Netlify.",
+        "image" : "/web102-ndhub-walkthrough.gif",
         "tech" : ["React", "TailwindCSS", "Supabase", "Netlify"],
         "github" : "https://github.com/LerichO/web102-final",
         "otherLink" : ""
     },
     {
         "title" : "Conceal and Reveal",
-        "description" : "10-week long research project which consisted of using various techniques to implement steganography and steganalysis, and experimenting with cryptography to hide a message's meaning. We created and ran various machine learning models using both convolutional neural networks (CNN), such as ResNet50 and EfficientNetV2-S, and support vector machines (SVM) to detect whether or not an image had been steganographically modified. Created under the ACM UTD Research Division",
-        "image" : "",
+        "description" : "10-week long research project which consisted of using various techniques to implement steganography and steganalysis, and experimenting with cryptography to hide a message's meaning. We created and ran various machine learning models using both convolutional neural networks (CNN), such as ResNet50 and EfficientNetV2-S, and support vector machines (SVM) to detect whether or not an image had been steganographically modified. Created under the ACM UTD Research Division.",
+        "image" : "/287488692-7e74817e-caf6-4756-97ba-5b5d83e92c32.png",
         "tech" : ["scikit-learn", "MatPlotLib", "TensorFlow"],
         "github" : "https://github.com/ACM-Research/Conceal-and-Reveal/",
         "otherLink" : "https://private-user-images.githubusercontent.com/62407356/287488692-7e74817e-caf6-4756-97ba-5b5d83e92c32.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjAyOTkzNDAsIm5iZiI6MTcyMDI5OTA0MCwicGF0aCI6Ii82MjQwNzM1Ni8yODc0ODg2OTItN2U3NDgxN2UtY2FmNi00NzU2LTk3YmEtNWI1ZDgzZTkyYzMyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzA2VDIwNTA0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE1MzJhMjkzZjRhZWZjNzNhNmJlNTdhMjI4NDMwYjU5ZTg2MzM4YmVjNzdmNjQ1NTEyM2VkMTYwMWJmMjMwMjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.JW1--ZMboYvk2_STKYpY77jyzZfmRJB7XBUW84mFpWI"
     },
     {
         "title" : "homeAloan",
-        "description" : "",
-        "image" : "",
+        "description" : "The current generation of rising young adults face growing challenges in understanding and preparing for the housing market; this app seeks to mitigate that issue. HomeAloan is a website that seeks to evaluate the expenses and income of end users and provide meaningful insight into their eligibility for home loans. Built during the HackUTD X: Golden Hour 2023 hackathon",
+        "image" : "/homealoan-thumbnail.gif",
         "tech" : ["Flask", "OpenAI"],
         "github" : "https://github.com/LerichO/homeAloan",
         "otherLink" : "https://devpost.com/software/self-realtor"
     },
     {
         "title" : "Small Services Finder",
-        "description" : "",
-        "image" : "",
-        "tech" : ["Flask", "Bootstrap", "Heroku"],
+        "description" : "An MVP Flask application designed to highlight and find small local alternatives for users. Built as a final project for FinTech Focus Summer 2021 cohort. FinTech Focus is an immersive four-week program sponsored and hosted by a consortium of top-tier financial institutions (Bank of America, Goldman Sachs, JPMorgan Chase, Morgan Stanley, and Wells Fargo) to gain a foundational understanding of the FinTech sector and computer science.",
+        "image" : "/fintech-focus.png",
+        "tech" : ["Flask", "MongoDB", "Bootstrap", "Heroku"],
         "github" : "https://github.com/LerichO/final-project",
         "otherLink" : ""
     }

@@ -27,9 +27,9 @@ function App() {
       <div>
         <ul className="flex flex-row">
           <li><button onClick={() => scrollTo(home)}>Home</button></li>
-          <li><button onClick={() => scrollTo(about)}>About Me</button></li>
+          <li><button onClick={() => scrollTo(about)}>About</button></li>
           <li><button onClick={() => scrollTo(projects)}>Projects</button></li>
-          <li><button onClick={() => scrollTo(contact)}>Contact Me</button></li>
+          <li><button onClick={() => scrollTo(contact)}>Contact</button></li>
         </ul>
       </div>
       <div ref={home}>
@@ -77,8 +77,8 @@ function App() {
             />
           </h2>
           <div className="flex flex-row">
-            <img />
-            <p></p>
+            <img src='/linkedin.jpg' width={350}/>
+            <p className='px-8'>Greetings! My name is Lerich Osay and I am an undergraduate Computer Science at the University of Texas at Dallas; welcome to my website!</p>
           </div>
         </div>
         <div ref={projects} className="min-h-screen mb-4 mt-8">
