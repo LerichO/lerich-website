@@ -78,7 +78,7 @@ function App() {
           </h2>
           <div className="flex flex-row">
             <img src='/linkedin.jpg' width={350}/>
-            <p className='px-8'>Greetings! My name is Lerich Osay and I am an undergraduate Computer Science at the University of Texas at Dallas; welcome to my website!</p>
+            <p className='px-8 text-lg'>Greetings! My name is Lerich Osay and I am an undergraduate Computer Science at the University of Texas at Dallas; welcome to my website!</p>
           </div>
         </div>
         <div ref={projects} className="min-h-screen mb-4 mt-8">

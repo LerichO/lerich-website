@@ -63,9 +63,9 @@ function ProjectCard(props) {
                             />
                         </p>
                     </div>
-                    <div id="project-thumbnail" className="w-2/5 items-center">
+                    <div id="project-thumbnail" className="flex w-2/5 items-center justify-center">
                         <a href={otherLink || github || null} target="_blank" rel="noopener noreferrer">
-                            <img src={image}/>
+                            <img src={image} className="max-h-64"/>
                         </a>
                     </div>
                 </div>
