@@ -18,7 +18,7 @@
     {
         "title" : "SHPE UTD Chapter Website",
         "description" : "As a Technology Director, I manage the development and maintenance of the chapter website for the Society of Hispanic Professional Engineers (SHPE) at UT Dallas utilizing NextJS and Vercel deployment. Be sure to visit our chapter and check out all the cool events we're up to!",
-        "image" : "/market-maven-thumbnail.gif",
+        "image" : "/shpeutd-thumbnail.gif",
         "tech" : ["Next.js", "Node.js", "TailwindCSS", "Vercel"],
         "github" : "",
         "otherLink" : "https://shpeutd.vercel.app/"

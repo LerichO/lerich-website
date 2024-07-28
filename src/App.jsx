@@ -31,7 +31,7 @@ function App() {
         <meta name="description" content="Personal website portfolio of Lerich Osay - current Computer Science student, future Software Engineer." />
       </Helmet>
       <div>
-        <ul className="flex flex-row">
+        <ul className="flex flex-row text-lg">
           <li><button onClick={() => scrollTo(home)}>Home</button></li>
           <li><button onClick={() => scrollTo(about)}>About</button></li>
           <li><button onClick={() => scrollTo(projects)}>Projects</button></li>
@@ -82,9 +82,16 @@ function App() {
               repeat={1}
             />
           </h2>
-          <div className="flex flex-row">
-            <img src='/linkedin.jpg' width={350}/>
-            <p className='px-8 text-lg'>Greetings! My name is Lerich Osay and I am an undergraduate Computer Science at the University of Texas at Dallas; welcome to my website!</p>
+          <div className="flex flex-row text-justify">
+            <img src='/linkedin.jpg' className='sm:w-[350px] object-scale-down' />
+            <div className='flex flex-col gap-8'>
+              <p className='px-12 text-lg'>
+                Greetings! I am an undergraduate Computer Science student at the University of Texas at Dallas and aspiring software engineer. Since embarking on my technology journey in high school, I have maintained a passionate drive to craft innovative, creative, and impactful solutions through programming.
+              </p>
+              <p className='px-12 text-lg'>
+              My strengths currently lay in full-stack software development, and I am eager to continue broadening my expertise to encompass more compelling realms of Computer Science such as machine learning and cloud computing.
+              </p>
+            </div>
           </div>
         </div>
         <div ref={projects} className="min-h-screen mb-4 mt-8">
@@ -99,13 +106,13 @@ function App() {
               repeat={1}
             />
           </h2>
-          <p className='mb-4 flex flex-wrap justify-center'>
+          <p className='mb-4 text-lg flex flex-wrap justify-center'>
             Here is a list of some of the projects and work I am proud to have contirbuted to.
             Feel free to explore and interact to learn more!
           </p>
           <div className='flex flex-wrap gap-5 p-8 justify-center items-center'>
             {listOfProjects.map((project) => (
-              <ProjectCard project={project} key={project}/>
+              <ProjectCard project={project} key={project} />
             ))}
 
           </div>
@@ -122,9 +129,12 @@ function App() {
               repeat={1}
             />
           </h2>
-          🛠️ WIP 🛠️
-        </div>
+          <p className='flex gap-2 justify-center'>
+            Feel free to reach out at
+            <a href="mailto:lerich.osay@utdallas.edu" className='underline'>Lerich.Osay@UTDallas.edu</a>
 
+          </p>
+        </div>
       </div>
 
     </>
