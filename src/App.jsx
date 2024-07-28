@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet';
 import { TypeAnimation } from 'react-type-animation'
 import './App.css'
 
@@ -24,6 +25,11 @@ function App() {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Lerich Osay's Personal Website</title>
+        <meta name="description" content="Personal website portfolio of Lerich Osay - current Computer Science student, future Software Engineer." />
+      </Helmet>
       <div>
         <ul className="flex flex-row">
           <li><button onClick={() => scrollTo(home)}>Home</button></li>
