@@ -1,15 +1,9 @@
 [
     {
         "position": "Full-Stack Software Developer Intern",
-        "affiliation": "Soulstice Dating",
+        "affiliation": "SOULSTICE DATING",
         "link": "https://soulsticedating.com/",
         "duration": "April 2024 - Present"
-    },
-    {
-        "position": "Project Manager, Software Developer, Undergaduate Researcher",
-        "affiliation": "ACM UTD",
-        "link": "https://acmutd.co",
-        "duration": "May 2024 - Present"
     },
     {
         "position": "Software Engineer Sprintern",
@@ -18,14 +12,32 @@
         "duration": "May 2024"
     },
     {
+        "position": "Project Manager",
+        "affiliation": "ACM UTD",
+        "link": "https://acmutd.co",
+        "duration": "May 2024 - Present"
+    },
+    {
+        "position": "Software Developer",
+        "affiliation": "ACM UTD",
+        "link": "https://acmutd.co",
+        "duration": "February 2024 - May 2024"
+    },
+    {
+        "position": "Undergaduate Researcher",
+        "affiliation": "ACM UTD",
+        "link": "https://acmutd.co",
+        "duration": "September 2023 - February 2024"
+    },
+    {
         "position": "IT Help Desk Assistant",
-        "affiliation": "The University of Texas at Dallas",
+        "affiliation": "THE UNIVERSITY OF TEXAS AT DALLAS",
         "link": "https://jindal.utdallas.edu/student-resources/tech-support/",
         "duration": "October 2023 - Present"
     },
     {
         "position": "FinTech Focus Fellow",
-        "affiliation": "Upperline Code",
+        "affiliation": "UPPERLINE CODE (ACQ. BY DELLOITE DIGITAL)",
         "link": "https://fintechfocus.com/",
         "duration": "July 2021"
     }
