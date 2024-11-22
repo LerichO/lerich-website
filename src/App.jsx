@@ -33,7 +33,7 @@ function App() {
         <meta name="description" content="Personal website portfolio of Lerich Osay - current Computer Science student, future Software Engineer." />
       </Helmet>
       <main className='flex md:flex-row flex-col gap-8 w-full'>
-        <div className="h-full md:w-1/6 flex md:flex-col flex-row items-start justify-center fixed md:left-0 md:top-0 p-4">
+        <div className="md:h-full md:w-1/6 flex md:flex-col flex-row items-start justify-center fixed md:left-0 md:top-0 p-4">
           <button onClick={() => scrollTo(home)} className='w-full md:text-right text-xl'>Home</button>
           <button onClick={() => scrollTo(about)} className='w-full md:text-right text-xl'>About</button>
           <button onClick={() => scrollTo(projects)} className='w-full md:text-right text-xl'>Projects</button>
@@ -81,8 +81,8 @@ function App() {
                 repeat={1}
               />
             </h2>
-            <div className="flex flex-row text-justify">
-              <img src='/linkedin.jpg' className='sm:w-[350px] object-scale-down' />
+            <div className="flex flex-col md:flex-row text-justify items-center">
+              <img src='/linkedin.jpg' className='w-[350px] object-scale-down' />
               <div className='flex flex-col gap-4 items-center'>
                 <p className='px-12 text-lg'>
                   Greetings! I am an undergraduate Computer Science student at the University of Texas at Dallas and aspiring software engineer. Through the various professional experiences and student-led initiatives that I have had the privilege of partaking in, I have been able to hone my skills as a developer and showcase my passionate drive to craft innovative, creative, and impactful solutions through programming. This website is a display of my journey so far.
@@ -143,10 +143,9 @@ function App() {
                 repeat={1}
               />
             </h2>
-            <p className='flex gap-2 justify-center'>
-              Feel free to reach out at
-              <a href="mailto:lerich.osay@utdallas.edu" className='underline'>Lerich.Osay@UTDallas.edu</a>
-
+            <p className=''>
+              Feel free to reach out at 
+              <span> <a href="mailto:lerich.osay@utdallas.edu" className='underline'>Lerich.Osay@UTDallas.edu</a></span>
             </p>
           </section>
         </div>
