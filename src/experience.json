@@ -1,12 +1,18 @@
 [
     {
+        "position": "Software Engineer",
+        "affiliation": "UTDesign EPICS",
+        "link": "https://epics.utdallas.edu/",
+        "duration": "August 2024 - Present"
+    },
+    {
         "position": "Full-Stack Software Developer Intern",
         "affiliation": "SOULSTICE DATING",
         "link": "https://soulsticedating.com/",
-        "duration": "April 2024 - Present"
+        "duration": "April 2024 - August 2024"
     },
     {
-        "position": "Software Engineer Sprintern",
+        "position": "Machine Learning Engineer Sprintern",
         "affiliation": "ASAPP",
         "link": "https://www.asapp.com/",
         "duration": "May 2024"
@@ -33,7 +39,7 @@
         "position": "IT Help Desk Assistant",
         "affiliation": "THE UNIVERSITY OF TEXAS AT DALLAS",
         "link": "https://jindal.utdallas.edu/student-resources/tech-support/",
-        "duration": "October 2023 - Present"
+        "duration": "October 2023 - August 2024"
     },
     {
         "position": "FinTech Focus Fellow",

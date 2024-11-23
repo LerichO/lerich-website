@@ -16,9 +16,20 @@ function ProjectCard(props) {
             onClick={() => setOpen(!open)}
         >
             <div className="w-full flex flex-row justify-between items-center">
-                <h3>{title}</h3>
+                <h3>
+                    <TypeAnimation
+                        sequence={[
+                            title,
+                            5000
+                        ]}
+                        wrapper="span"
+                        speed={50}
+                        repeat={1}
+                    />
+
+                </h3>
                 {!open && (
-                    <ExpandMoreIcon className="scale-[2]"/>
+                    <ExpandMoreIcon className="scale-[2]" />
                 )}
             </div>
             {open && (
@@ -65,7 +76,7 @@ function ProjectCard(props) {
                     </div>
                     <div id="project-thumbnail" className="flex w-2/5 items-center justify-center">
                         <a href={otherLink || github || null} target="_blank" rel="noopener noreferrer">
-                            <img src={image} className="max-h-64"/>
+                            <img src={image} className="max-h-64" />
                         </a>
                     </div>
                 </div>
